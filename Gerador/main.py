@@ -1,5 +1,6 @@
 '''
     GERADOR DE DOCUMENTOS PYTHON
+    By: GABRIEL VINICIUS
 '''
 #Importando modulos
 import PySimpleGUI as sg
