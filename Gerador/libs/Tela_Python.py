@@ -32,6 +32,7 @@ class TelaPython:
                 if self.Button == 'GerarRG':
                     print(f'RG: {randint(-1,9)}{randint(0,9)}.{randint(0,9)}{randint(0,9)}{randint(0,9)}.{randint(0,9)}{randint(0,9)}{randint(0,9)}-{randint(0,9)}')
                     self.rg.append(f'RG: {randint(-1,9)}{randint(0,9)}.{randint(0,9)}{randint(0,9)}{randint(0,9)}.{randint(0,9)}{randint(0,9)}{randint(0,9)}-{randint(0,9)}')
+       
             if self.Button == 'CriarTXT':
                 #Gerando TXT
                 with open('CPF_GERADOS.txt', '+wt') as arquivo:
@@ -42,7 +43,6 @@ class TelaPython:
                         arquivo.write(f'{i}\n')
             if self.Button == 'Sair':
                 break
-
 '''
     GERADOR DE DOCUMENTOS PYTHON
     By: GABRIEL VINICIUS
